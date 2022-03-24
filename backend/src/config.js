@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "MetaPandaGangTest";
+const namePrefix = "Meta Panda Gang";
 const description = "The Meta Panda Gang have their own kind. They are to be used as weapons against the humans but quickly the experiments went out of control.These lab grown pandas are now roaming the metaverse destroying and taking control of all that come in it's path.Become an OG Panda holder and gain access to *free mints and more";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -65,7 +65,7 @@ const PUBLIC_MINT_START_DATE = "2022-03-24T19:42:48+00:00"; // This is required.
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-04-04T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
-const ROYALTY_SHARE = 2000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0x0C68b3e77704A81b44C3c37Af85E8889502eFda5"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
