@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Meta Panda Gang</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link  rel="icon" type="image/x-icon" href="images/x-icon/favicon-32x32.png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .nav-link{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+      }
+      .socialButton{
+        padding: 16px 32px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 1.25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        border-radius:10px
+      }
+    }
+  </style>
+</head>
+<body class="w-screen p-0 m-0">
+  <header class="container mx-auto p-100  ">
+    <div class="container pt-5 flex flex-row justify-between items-center">
+      <div class="flex flex-row flex-grow justify-between max-w-md sm-hidden">
+        <a href="#" class="nav-link">Collection</a>
+        <a href="#" class="nav-link">Roadmap</a>
+        <a href="#" class="nav-link">Team</a>
+        <a href="#" class="nav-link">FAQ</a>
+      </div>
+      <div class="logo">
+        <a href="#"><img src="images/png1 1.png" alt="Logo"></a>
+      </div>
+      <div class="flex flex-row flex-grow justify-between max-w-md">
+        <a href="https://testnets.opensea.io/collection/metapandagangtest" target="_blank" class="socialButton bg-[#2081E2]">OpenSea</a>
+        <a href="#" target="_blank" class="socialButton bg-[#5C6BC0]">Discord</a>
+        <a href="#" target="_blank" class="socialButton bg-[#1DA1F2]">Twitter</a>
+      </div> 
+    </div>
+
+  </header>
+    
+</body>
+</html>
